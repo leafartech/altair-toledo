@@ -44,8 +44,7 @@ export function Form() {
 
         setData(dataHlp)
 
-        console.log(dataHlp)
-        await fetch("https://webhook.sellflux.com/webhook/v2/form/lead/bf190332af63ee21935d61793aab36f1?not_query=true&redirect_url=https%3A%2F%2Fteste.com", {
+        await fetch("https://webhook.sellflux.com/webhook/v2/form/lead/bf190332af63ee21935d61793aab36f1?not_query=true&redirect_url=https%3A%2F%2Faltairtoledo.vercel.app%2F", {
             method: "POST",
             headers: {
                 "Accept": "application/json",
@@ -83,4 +82,3 @@ export function Form() {
         </form>
     )
 }
-
