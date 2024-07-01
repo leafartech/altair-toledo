@@ -6,7 +6,8 @@ export default function Page() {
     <>
       <main className="relative min-h-screen w-full px-4 pt-12 flex flex-col items-center justify-center bg-[#001236]">
       <div className="absolute sm:-top-36 sm:-left-36 -top-4 -left-4 w-1/3 h-[240px] sm:h-[524px] bg-white opacity-40 blur-[100px] sm:blur-[200px] rounded-full"></div>
-        <section>
+      <div className="absolute sm:-bottom-36 sm:-right-36 -bottom-4 -right-4 w-1/3 h-[240px] sm:h-[524px] bg-white opacity-40 blur-[100px] sm:blur-[200px] rounded-full"></div>
+        <section className="z-50">
           <div className="flex flex-col items-center gap-8">
             <div className="flex flex-col items-center gap-2">
               <Image
