@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <>
-      <main className="relative min-h-screen w-full px-4 pt-12 flex flex-col items-center justify-center bg-[#001236]">
+      <main className="relative overflow-hidden min-h-screen w-full px-4 pt-12 flex flex-col items-center justify-center bg-[#001236]">
       <div className="absolute sm:-top-36 sm:-left-36 -top-4 -left-4 w-1/3 h-[240px] sm:h-[524px] bg-white opacity-40 blur-[100px] sm:blur-[200px] rounded-full"></div>
       <div className="absolute sm:-bottom-36 sm:-right-36 -bottom-4 -right-4 w-1/3 h-[240px] sm:h-[524px] bg-white opacity-40 blur-[100px] sm:blur-[200px] rounded-full"></div>
         <section className="z-50">
