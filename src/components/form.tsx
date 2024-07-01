@@ -71,13 +71,13 @@ export function Form() {
                         <p className="text-zinc-400 text-sm text-center">Cadastre-se e fique atualizado nos assuntos mais quentes do tributário.</p>
                     </div>
                     <div className="flex flex-col gap-1">
-                        <input onChange={(e) => handleChange('name', e.target.value)} value={data.name} className="outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="text" id="name" name="name" placeholder="Insira seu nome" min={2} required />
+                        <input onChange={(e) => handleChange('name', e.target.value)} value={data.name} className="text-white outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="text" id="name" name="name" placeholder="Insira seu nome" min={2} required />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <input onChange={(e) => handleChange('email', e.target.value)} value={data.email} className="outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="text" id="email" name="email" placeholder="Insira seu melhor e-mail" required />
+                        <input onChange={(e) => handleChange('email', e.target.value)} value={data.email} className="text-white outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="text" id="email" name="email" placeholder="Insira seu melhor e-mail" required />
                     </div>
                     <div className="flex flex-col gap-1">
-                        <input onChange={(e) => handleChange('phone', e.target.value)} value={data.phone} className="outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="tel" id="tel" name="phone" maxLength={16} placeholder="WhatsApp: (00) 00000-0000" required />
+                        <input onChange={(e) => handleChange('phone', e.target.value)} value={data.phone} className="text-white outline-none rounded py-2 px-3 text-sm bg-[#1b2d51]" type="tel" id="tel" name="phone" maxLength={16} placeholder="WhatsApp: (00) 00000-0000" required />
                     </div>
                     <button className="w-full text-sm sm:text-base text-center flex items-center justify-center gap-2 px-6 py-2 font-semibold text-white bg-green-600 hover:bg-green-700 transition rounded" type="submit">
                         {!loading ? (
